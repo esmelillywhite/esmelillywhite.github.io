@@ -1,0 +1,6 @@
+name: "EsmeLillywhite"
+navbar:
+  title: "Esme Lillywhite"
+  left:
+    - text: "Home"
+      href: index.html
