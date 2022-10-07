@@ -1,6 +1,11 @@
 name: "EsmeLillywhite"
 navbar:
   title: "Esme Lillywhite"
-  left:
-    - text: "Home"
-      href: index.html
+  type: inverse 
+  right:
+    - text: "CV"
+      href: https://drive.google.com/file/d/1AxhNm01VNuYp9NOu-EYrDhU86tcfSzWn/view?usp=sharing
+    - text: "Research"
+      href: research.html
+    - text: "Contact"
+      href: contact.html

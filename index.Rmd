@@ -3,4 +3,7 @@ title: "Home"
 output: html_document
 ---
 
-Welcome to my crib
+To do: 
+change the nav bar so it says Esme Lillywhite with an icon to the left, and on the right it has direct link to CV, link to research and link to contact.
+
+On this page, about me and a picture, centred in the middle and in nice font
