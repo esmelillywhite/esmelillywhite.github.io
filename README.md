@@ -1,5 +1,10 @@
 # esmelillywhite.github.io
 
+https://esmelillywhite.github.io/
+
+Why it is important? Why R markdown? Why github
+
+
 # Getting started
 
 *R setup*
