@@ -54,3 +54,6 @@ And then type what you want to appear on your home page.
 * Now you need to push these changes to your remote repository. On GitHub Desktop, the changes you have made should appear on the column at the left handside.
 * Type a short summary of your changes, and click commit to master at the bottom.
 * The option will appear to push origin. Click this. This pushes your changes to the remote repository.
+
+
+On the GitHub, go to the settings, and then go to pages. Make sure that the folder it is being built from is the folder where the HTML files are being saved (which you can configure in R in buld configuration). 
