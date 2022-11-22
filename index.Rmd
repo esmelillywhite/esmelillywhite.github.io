@@ -3,7 +3,43 @@ title: "Home"
 output: html_document
 ---
 
-To do: 
-change the nav bar so it says Esme Lillywhite with an icon to the left, and on the right it has direct link to CV, link to research and link to contact.
+<style type="text/css">
+.title {
+  display: none;
+}
 
-On this page, about me and a picture, centred in the middle and in nice font
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-8">
+
+# **Welcome ** 
+
+<br> <br>
+I am a doctoral candidate with the [Inspiring Children's Futures](https://inspiringchildrensfutures.org/) Doctoral Research Centre, University of Strathclyde in Scotland. My research looks at the role of education in intergenerational income mobility in the UK. 
+
+My research interests include quantitative methods, social stratification and inequality and education.
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="col-sm-4">
+
+
+
+
+![](images/esme.jpg)
+</a>
