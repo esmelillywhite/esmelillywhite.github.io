@@ -4,7 +4,7 @@ navbar:
   type: inverse 
   right:
     - text: "CV"
-      href: https://drive.google.com/file/d/1AxhNm01VNuYp9NOu-EYrDhU86tcfSzWn/view?usp=sharing
+      href: https://esmelillywhite.github.io/images/CV.pdf
     - text: "Research"
       href: research.html
     - text: "Contact"
