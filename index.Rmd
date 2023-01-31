@@ -6,6 +6,7 @@ output: html_document
 <style type="text/css">
 .title {
   display: none;
+  margin: 25px;
 }
 
 #getting-started img {
@@ -14,32 +15,54 @@ output: html_document
 
 </style>
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-8">
-
-# **Welcome ** 
-
-<br> <br>
-I am a doctoral candidate with the [Inspiring Children's Futures](https://inspiringchildrensfutures.org/) Doctoral Research Centre, University of Strathclyde in Scotland. My research looks at the role of education in intergenerational income mobility in the UK. 
-
-My research interests include quantitative methods, social stratification and inequality and education.
+<div class="row" style="padding: 30px;">
+<div class="col-sm-4">
 
 
+## Esme Lillywhite
+
+<br>
+
+Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre, University of Strathclyde.
+
+<br>
+
+![](images/esme.jpg)
+
+<br>
 
 
+<br>
 
+[esme.lillywhite@strath.ac.uk](mailto:esme.lillywhite@strath.ac.uk)
 
+[Curriculum Vitae](https://esmelillywhite.github.io/images/CV.pdf)
 
+[Google Scholar Site](https://scholar.google.com/citations?user=f9-QTNkAAAAJ&hl=en)
 
+<br>
 
+[Inspiring Children's Futures](https://inspiringchildrensfutures.org/)
 
 
 
 </div>
-<div class="col-sm-4">
+
+<div class="col-sm-8" style="padding-top: 100px; ">
 
 
+### **Research** <br>
+
+<br> 
+
+##### PhD thesis <br>
+
+* My current doctoral research focuses on the role of education in social mobility in the UK. Using data from the British Household Panel Survey, I am estimating intergenerational income mobility in the UK, seeing to what extent educational attainment plays a mediating and moderating role. 
+
+##### Previous research <br>
+
+* [Shaping Social Mobility: Education & Employment- Conference Briefing](https://www.cumberlandlodge.ac.uk/read-watch-listen/shaping-social-mobility-education-employment-conference-briefing), Cumberland Lodge, 2022
 
 
-![](images/esme.jpg)
+* [School Absenteeism and Educational Attainment- Evidence from the Scottish Longitudinal Study](https://strathprints.strath.ac.uk/80713/), University of Strathclyde, 2022.
 </a>

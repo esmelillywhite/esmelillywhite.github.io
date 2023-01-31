@@ -1,13 +1,4 @@
 name: "EsmeLillywhite"
 navbar:
-  title: "Esme Lillywhite"
-  type: inverse 
-  right:
-    - text: "CV"
-      href: https://esmelillywhite.github.io/images/CV.pdf
-    - text: "Research"
-      href: research.html
-    - text: "Contact"
-      href: contact.html
-output_dir: "docs"
+
     
