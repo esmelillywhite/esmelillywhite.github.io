@@ -1,6 +1,0 @@
----
-title: "Contact"
-output: html_document
----
-
-This is my contact details
