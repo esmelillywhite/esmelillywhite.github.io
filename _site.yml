@@ -1,6 +1,7 @@
 name: "EsmeLillywhite"
 navbar:
   title: "Esme Lillywhite"
+  type: inverse
   right:
     - text: "Home"
       href: index.html
