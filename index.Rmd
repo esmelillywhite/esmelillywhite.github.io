@@ -25,6 +25,8 @@ output: html_document
 
 Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre, University of Strathclyde.
 
+Research Assistant at the Centre for Economic Performance, London School of Economics.
+
 <br>
 
 ![](images/esme.jpg)
@@ -33,8 +35,6 @@ Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre,
 <br>
 
 [esme.lillywhite@strath.ac.uk](mailto:esme.lillywhite@strath.ac.uk)
-
-[Curriculum Vitae](https://esmelillywhite.github.io/images/CV.pdf)
 
 [Google Scholar Site](https://scholar.google.com/citations?user=f9-QTNkAAAAJ&hl=en)
 
@@ -53,14 +53,24 @@ Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre,
 
 <br> 
 
-##### PhD thesis <br>
+##### Current Research <br>
 
 * My current doctoral research focuses on the role of education in social mobility in the UK. Using data from the British Household Panel Survey, I am estimating intergenerational income mobility in the UK, seeing to what extent educational attainment plays a mediating and moderating role. 
+* Research Assistant on Nuffield funded project [Covid-19 and Social Mobility: Life Prospects in a Post-pandemic World](https://www.nuffieldfoundation.org/project/covid-19-and-social-mobility). 
 
-##### Previous research <br>
+##### Education & Social Mobility <br>
 
-* [Shaping Social Mobility: Education & Employment- Conference Briefing](https://www.cumberlandlodge.ac.uk/read-watch-listen/shaping-social-mobility-education-employment-conference-briefing), Cumberland Lodge, 2022
+* Eyles, A., Lillywhite, E. & Elliot Major, L. [The Rising Tide of School Absences in the Post-pandemic Era](https://blogs.lse.ac.uk/politicsandpolicy/the-rising-tide-of-school-absences-in-the-post-pandemic-era/), British Politics and Policy at LSE, 2023
+
+* Lillywhite, E. [Shaping Social Mobility: Education & Employment- Conference Briefing](https://www.cumberlandlodge.ac.uk/read-watch-listen/shaping-social-mobility-education-employment-conference-briefing), Cumberland Lodge, 2022
 
 
-* [School Absenteeism and Educational Attainment- Evidence from the Scottish Longitudinal Study](https://strathprints.strath.ac.uk/80713/), University of Strathclyde, 2022.
+* Klein, M., Sosu, E. & Lillywhite, E., [School Absenteeism and Educational Attainment- Evidence from the Scottish Longitudinal Study](https://strathprints.strath.ac.uk/80713/), University of Strathclyde, 2022.
+
+##### Comparative Politics
+
+* Carnes, N., Ferrer, J., Golden, M., Lillywhite, E., Lupu N., Nazrullaeva, E., [The Global Legislators Database: The Personal Backgrounds of National Legislators in the World's Democracies](https://www.noamlupu.com/GLDpaper.pdf) In Review. 
+
 </a>
+
+

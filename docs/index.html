@@ -13,7 +13,7 @@
 
 <title>Home</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -278,13 +279,13 @@ $(document).ready(function () {
 <p><br></p>
 <p>Doctoral candidate at the Inspiring Children’s Futures Doctoral
 Research Centre, University of Strathclyde.</p>
+<p>Research Assistant at the Centre for Economic Performance, London
+School of Economics.</p>
 <p><br></p>
 <p><img src="images/esme.jpg" /></p>
 <p><br></p>
 <p><a
 href="mailto:esme.lillywhite@strath.ac.uk">esme.lillywhite@strath.ac.uk</a></p>
-<p><a href="https://esmelillywhite.github.io/images/CV.pdf">Curriculum
-Vitae</a></p>
 <p><a
 href="https://scholar.google.com/citations?user=f9-QTNkAAAAJ&amp;hl=en">Google
 Scholar Site</a></p>
@@ -298,27 +299,45 @@ Futures</a></p>
 <div id="research" class="section level3">
 <h3><strong>Research</strong> <br></h3>
 <p><br></p>
-<div id="phd-thesis" class="section level5">
-<h5>PhD thesis <br></h5>
+<div id="current-research" class="section level5">
+<h5>Current Research <br></h5>
 <ul>
 <li>My current doctoral research focuses on the role of education in
 social mobility in the UK. Using data from the British Household Panel
 Survey, I am estimating intergenerational income mobility in the UK,
 seeing to what extent educational attainment plays a mediating and
 moderating role.</li>
+<li>Research Assistant on Nuffield funded project <a
+href="https://www.nuffieldfoundation.org/project/covid-19-and-social-mobility">Covid-19
+and Social Mobility: Life Prospects in a Post-pandemic World</a>.</li>
 </ul>
 </div>
-<div id="previous-research" class="section level5">
-<h5>Previous research <br></h5>
+<div id="education-social-mobility" class="section level5">
+<h5>Education &amp; Social Mobility <br></h5>
 <ul>
-<li><p><a
+<li><p>Eyles, A., Lillywhite, E. &amp; Elliot Major, L. <a
+href="https://blogs.lse.ac.uk/politicsandpolicy/the-rising-tide-of-school-absences-in-the-post-pandemic-era/">The
+Rising Tide of School Absences in the Post-pandemic Era</a>, British
+Politics and Policy at LSE, 2023</p></li>
+<li><p>Lillywhite, E. <a
 href="https://www.cumberlandlodge.ac.uk/read-watch-listen/shaping-social-mobility-education-employment-conference-briefing">Shaping
 Social Mobility: Education &amp; Employment- Conference Briefing</a>,
 Cumberland Lodge, 2022</p></li>
-<li><p><a href="https://strathprints.strath.ac.uk/80713/">School
-Absenteeism and Educational Attainment- Evidence from the Scottish
-Longitudinal Study</a>, University of Strathclyde, 2022. </a></p></li>
+<li><p>Klein, M., Sosu, E. &amp; Lillywhite, E., <a
+href="https://strathprints.strath.ac.uk/80713/">School Absenteeism and
+Educational Attainment- Evidence from the Scottish Longitudinal
+Study</a>, University of Strathclyde, 2022.</p></li>
 </ul>
+</div>
+<div id="comparative-politics" class="section level5">
+<h5>Comparative Politics</h5>
+<ul>
+<li>Carnes, N., Ferrer, J., Golden, M., Lillywhite, E., Lupu N.,
+Nazrullaeva, E., <a href="https://www.noamlupu.com/GLDpaper.pdf">The
+Global Legislators Database: The Personal Backgrounds of National
+Legislators in the World’s Democracies</a> In Review.</li>
+</ul>
+<p></a></p>
 </div>
 </div>
 
