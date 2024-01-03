@@ -25,8 +25,6 @@ output: html_document
 
 Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre, University of Strathclyde.
 
-Research Assistant at the Centre for Economic Performance, London School of Economics.
-
 <br>
 
 ![](images/esme.jpg)
@@ -40,7 +38,7 @@ Research Assistant at the Centre for Economic Performance, London School of Econ
 
 <br>
 
-[Inspiring Children's Futures](https://inspiringchildrensfutures.org/)
+[Inspiring Children's Futures Institute](https://inspiringchildrensfutures.org/)
 
 
 
