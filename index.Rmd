@@ -23,7 +23,7 @@ output: html_document
 
 <br>
 
-Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre, University of Strathclyde.
+Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre, University of Strathclyde. Research and Policy Officer at The Sutton Trust.
 
 <br>
 
@@ -54,9 +54,13 @@ Doctoral candidate at the Inspiring Children's Futures Doctoral Research Centre,
 ##### Current Research <br>
 
 * My current doctoral research focuses on the role of education in social mobility in the UK. Using data from the British Household Panel Survey, I am estimating intergenerational income mobility in the UK, seeing to what extent educational attainment plays a mediating and moderating role. 
-* Research Assistant at the Centre for Economic Performance, LSE on [Covid-19 and Social Mobility: Life Prospects in a Post-pandemic World](https://www.nuffieldfoundation.org/project/covid-19-and-social-mobility). 
+* Ongoing projects at The Sutton Trust.
 
 ##### Education & Social Mobility <br>
+
+* Lillywhite, E. [Understanding social mobility](https://www.suttontrust.com/news-opinion/all-news-opinion/understanding-social-mobility/), The Sutton Trust, 2025.
+
+* The Sutton Trust. [What is Social Mobility? Redefining Opportunity in Britain](https://www.suttontrust.com/our-research/what-is-social-mobility/), 2025.
 
 * Elliot Major, L., Eyles, A., Lillywhite, E. & Machin, S. [A generation at risk: Rebalancing education in the post-pandemic era](https://www.nuffieldfoundation.org/wp-content/uploads/2022/02/A-generation-at-risk-rebalancing-education-in-the-post-pandemic-era.pdf), Nuffield Foundation, 2024
 
